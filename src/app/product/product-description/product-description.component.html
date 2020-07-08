@@ -1,0 +1,3 @@
+<div *ngFor="let item of prod">
+    <div (click)="selectedItem(item['id'])">{{item.id}},{{item.name}}</div>
+</div>

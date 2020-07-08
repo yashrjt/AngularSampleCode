@@ -1,0 +1,9 @@
+ul{
+    list-style:none;
+}
+
+
+.flex{
+    display:flex;
+    align-content: space-between;
+}

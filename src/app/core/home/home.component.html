@@ -1,0 +1,9 @@
+<ul *ngFor="let emp of employee">
+    <li [ngStyle]="{color: (emp.age>35? 'red' :'blue')}">{{emp.name  |uppercase}} </li>
+    <li *ngIf="emp.age<35">Eligible for Bonus</li>
+    <li>{{emp.salary |currency }}</li>
+    <li>{{emp.doj |date}}</li>
+</ul>
+
+
+

@@ -1,0 +1,12 @@
+ul{
+    list-style: none;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.left-pane,.right-pane{
+    border:solid 1px black
+}
